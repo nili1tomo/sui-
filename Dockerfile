@@ -2,7 +2,7 @@ FROM busybox
 
 LABEL maintainer="Jeroen Pardon"
 
-WORKDIR /opt/html
+WORKDIR /opt/
 
 COPY . /opt/html
 
